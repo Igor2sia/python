@@ -12,7 +12,7 @@ def heartb(k):
     math.cos(3*k)-\
     math.cos(4*k)
 
-speed(4)
+speed(8500)
 bgcolor("black")
 pensize(3)
 
