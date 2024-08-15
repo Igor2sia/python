@@ -13,12 +13,12 @@ def heartb(k):
     math.cos(4*k)
 
 speed(8500)
-bgcolor("black")
+bgcolor("black") #Можем поменять цвет заднего фона
 pensize(3)
 
 for i in range(6000):
     goto(hearta(i)*20, heartb(i)*20)
     for j in range(5):
-        color("white")
+        color("red") #Можем поменять цвет сердечка
     goto(0,0)
 done()
