@@ -12,9 +12,9 @@ def heartb(k):
     math.cos(3*k)-\
     math.cos(4*k)
 
-speed(8500)
+speed(8500) #Скорость пера
 bgcolor("black") #Можем поменять цвет заднего фона
-pensize(3)
+pensize(3) #Размер пера в пикселях
 
 for i in range(6000):
     goto(hearta(i)*20, heartb(i)*20)
